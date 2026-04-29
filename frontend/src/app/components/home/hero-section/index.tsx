@@ -1,53 +1,61 @@
 import { getImgPath } from "@/utils/image";
 import Image from "next/image";
 
-const index = () => {
+const HeroSection = () => {
+  const heroImage = getImgPath("/images/home/banner/tanuj-hero.png");
+
   return (
-    <section className="relative hero-section overflow-hidden pt-35 md:pt-40 pb-12 lg:pb-30 xl:pt-52">
-      <div className="container">
-        <div className="lg:flex grid grid-cols-1 sm:grid-cols-2 gap-7 md:gap-4 items-center">
-          <div className="flex flex-col gap-4 md:gap-7 max-w-2xl">
+    <section className="relative hero-section overflow-hidden pt-28 pb-12 sm:pt-32 md:pt-40 lg:min-h-[700px] lg:pb-24 xl:pt-52">
+      <div className="container relative z-10">
+        <div className="grid grid-cols-1 gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,0.9fr)] lg:items-center">
+          <div className="flex max-w-2xl flex-col gap-4 md:gap-7">
             <div>
-              <div className="flex items-center gap-8">
+              <div className="flex items-center gap-4 sm:gap-8">
                 <h1>I&apos;m Tanuj</h1>
-                <div className="wave">
+                <div className="wave shrink-0">
                   <Image
                     src={getImgPath("/images/home/banner/wave-icon.svg")}
                     alt="wave-icon"
                     width={62}
                     height={62}
-                    className=""
+                    className="h-10 w-10 sm:h-[62px] sm:w-[62px]"
                   />
                 </div>
               </div>
               <h1>Full Stack Developer</h1>
             </div>
-            <p className="text-secondary font-normal max-w-md xl:max-w-xl">
+            <p className="max-w-md font-normal text-secondary xl:max-w-xl">
               Software Engineer with hands-on experience building scalable web
               applications using React, TypeScript, and Node.js. Passionate
               about designing clean, efficient, and scalable software solutions.
             </p>
           </div>
-          <Image
-            src={getImgPath("/images/home/banner/banner-img.png")}
-            alt="banner-img"
-            width={685}
-            height={650}
-            className="block lg:hidden"
-          />
+
+          <div className="relative aspect-[4/3] overflow-hidden rounded-lg lg:hidden">
+            <Image
+              src={heroImage}
+              alt="Tanuj Kumar smiling at a developer workspace"
+              fill
+              priority
+              sizes="100vw"
+              className="object-cover object-[50%_28%]"
+            />
+          </div>
         </div>
       </div>
-      <div className="absolute right-0 top-0 hidden h-auto w-1/2 lg:block 2xl:h-171.5 2xl:w-187.5">
+
+      <div className="absolute right-0 top-0 hidden h-full w-[48%] lg:block">
         <Image
-          src={getImgPath("/images/home/banner/banner-img.png")}
-          alt="banner-img"
-          width={685}
-          height={650}
-          className=" absolute right-0 top-0 z-1"
+          src={heroImage}
+          alt="Tanuj Kumar smiling at a developer workspace"
+          fill
+          priority
+          sizes="48vw"
+          className="object-cover object-[52%_50%]"
         />
       </div>
     </section>
   );
 };
 
-export default index;
+export default HeroSection;
