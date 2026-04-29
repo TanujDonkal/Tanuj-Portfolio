@@ -11,6 +11,7 @@ const Logo = () => {
           alt="logo"
           width={70}
           height={70}
+          className="h-12 w-12 sm:h-[70px] sm:w-[70px]"
         />
       </Link>
     </>
