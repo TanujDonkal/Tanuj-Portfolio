@@ -1,0 +1,16 @@
+{
+  "workData": [
+    {
+      "image": "/images/work/work-img-1.jpg",
+      "title": "Nova Scotia Ale - Marketplace Platform",
+      "client": "React, TypeScript, Node.js, Express, Supabase",
+      "slug": "nova-scotia-ale"
+    },
+    {
+      "image": "/images/work/work-img-2.jpg",
+      "title": "ERP System for Schools & Global Clients",
+      "client": "C#, ASP.NET Core, SQL Server, Entity Framework",
+      "slug": "erp-system"
+    }
+  ]
+}

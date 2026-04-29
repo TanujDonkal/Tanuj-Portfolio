@@ -1,0 +1,108 @@
+{
+  "contactBar": {
+    "contactItems": [
+      {
+        "type": "email",
+        "label": "TanujDonkal29@gmail.com",
+        "icon": "/images/icon/mail-icon.svg",
+        "link": "mailto:TanujDonkal29@gmail.com"
+      },
+      {
+        "type": "phone",
+        "label": "+1 902-240-6651",
+        "icon": "/images/icon/call-icon.svg",
+        "link": "tel:+19022406651"
+      },
+      {
+        "type": "location",
+        "label": "Halifax, Nova Scotia",
+        "icon": "/images/icon/web-icon.svg",
+        "link": "#contact"
+      }
+    ],
+    "socialItems": [
+      {
+        "platform": "github",
+        "icon": "/images/icon/github-icon.svg",
+        "link": "https://github.com/TanujDonkal"
+      },
+      {
+        "platform": "linkedin",
+        "icon": "/images/icon/linkedin-icon.svg",
+        "link": "https://www.linkedin.com/in/tanuj-kumar-"
+      }
+    ]
+  },
+  "educationData": {
+    "education": [
+      {
+        "title": "IT Programming for IoT (Certification) - 2025-2026",
+        "description": "Nova Scotia Community College, Halifax - Currently pursuing."
+      },
+      {
+        "title": "Full Stack Application Development (Certification) - 2024-2025",
+        "description": "Nova Scotia Community College, Halifax."
+      },
+      {
+        "title": "Bachelor of Technology - Computer Science - 2018-2023",
+        "description": "KIIT College of Engineering, India."
+      }
+    ],
+    "skills": [
+      {
+        "name": "React",
+        "icon": "/images/home/education-skill/figma-icon.svg",
+        "rating": 5
+      },
+      {
+        "name": "TypeScript",
+        "icon": "/images/home/education-skill/photoshop-icon.svg",
+        "rating": 5
+      },
+      {
+        "name": "Node.js",
+        "icon": "/images/home/education-skill/sketch-icon.svg",
+        "rating": 4
+      },
+      {
+        "name": "C# / .NET",
+        "icon": "/images/home/education-skill/adobe-icon.svg",
+        "rating": 4
+      },
+      {
+        "name": "SQL Server",
+        "icon": "/images/home/education-skill/framer-icon.svg",
+        "rating": 4
+      },
+      {
+        "name": "JavaScript",
+        "icon": "/images/home/education-skill/invision-icon.svg",
+        "rating": 5
+      }
+    ]
+  },
+  "contactLinks": {
+    "socialLinks": [
+      {
+        "title": "GitHub",
+        "href": "https://github.com/TanujDonkal"
+      },
+      {
+        "title": "LinkedIn",
+        "href": "https://www.linkedin.com/in/tanuj-kumar-"
+      }
+    ],
+    "contactInfo": [
+      {
+        "type": "email",
+        "label": "TanujDonkal29@gmail.com",
+        "link": "mailto:TanujDonkal29@gmail.com"
+      },
+      {
+        "type": "phone",
+        "label": "+1 902-240-6651",
+        "link": "tel:+19022406651"
+      }
+    ]
+  }
+}
