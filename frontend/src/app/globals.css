@@ -12,7 +12,7 @@ body {
   height: 100%;
 }
 
-button::before {
+button:not(.menu-toggle)::before {
   content: "";
   position: absolute;
   bottom: 0;
@@ -24,7 +24,7 @@ button::before {
   z-index: 0;
 }
 
-button:hover::before {
+button:not(.menu-toggle):hover::before {
   height: 100%;
 }
 

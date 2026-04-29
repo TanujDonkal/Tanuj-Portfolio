@@ -22,7 +22,7 @@ const LatestWork = () => {
   }, []);
 
   return (
-    <section>
+    <section id="projects" className="scroll-mt-24">
       <div className="bg-softGray">
         <div className="container">
           <div className="py-16 xl:py-32 ">

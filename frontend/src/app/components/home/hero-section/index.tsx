@@ -5,7 +5,10 @@ const HeroSection = () => {
   const heroImage = getImgPath("/images/home/banner/tanuj-hero.png");
 
   return (
-    <section className="relative hero-section overflow-hidden pt-28 pb-12 sm:pt-32 md:pt-40 lg:min-h-[700px] lg:pb-24 xl:pt-52">
+    <section
+      id="home"
+      className="relative hero-section scroll-mt-24 overflow-hidden pt-28 pb-12 sm:pt-32 md:pt-40 lg:min-h-[700px] lg:pb-24 xl:pt-52"
+    >
       <div className="container relative z-10">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,0.9fr)] lg:items-center">
           <div className="flex max-w-2xl flex-col gap-4 md:gap-7">

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const AboutMe = () => {
   return (
-    <section>
+    <section id="about" className="scroll-mt-24">
       <div className="relative bg-softGray py-10 md:py-32">
         <div className="absolute top-0 w-full px-9">
           <Image

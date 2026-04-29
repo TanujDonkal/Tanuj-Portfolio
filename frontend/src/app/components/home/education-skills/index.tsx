@@ -22,7 +22,7 @@ const EducationSkills = () => {
   }, []);
 
   return (
-    <section>
+    <section id="skills" className="scroll-mt-24">
       <div className="border-t border-softGray overflow-hidden">
         <div className="container relative z-10">
           <Image
